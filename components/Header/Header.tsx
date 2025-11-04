@@ -14,7 +14,10 @@ const Header = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            {/* <Link href="/notes">Notes</Link> */}
+            {/*  Додаємо обов’язкове посилання на /notes/filter/All */}
+            <Link href="/notes/filter/All">Notes</Link>
+          </li>
+          <li>
             <TagsMenu />
           </li>
         </ul>
